@@ -1,7 +1,7 @@
 {% extends "forum/base.html" %}
 
 {% block content %}
-{% if perguntas %} <!-- comandos do django aparecen assim: {%} -->
+{% if perguntas %} <!-- comandos do django aparecen assim, mas com duas porcentagens: {%} -->
     <h2>Últimas perguntas</h2>
     <ul>
     {% for pergunta in perguntas %}
